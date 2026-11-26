@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd9deccb8212e9741acad195674b7b3f, type: 3}
+  m_Name: house_area
+  m_EditorClassIdentifier: 
+  areaID: house
+  displayName: Casa
+  backgroundPrefab: {fileID: 972426451992123344, guid: fa687fdc82880b344b64f63b999dbdb1, type: 3}
+  minX: -12
+  maxX: 12
+  doors:
+  - position: {x: -4, y: 0}
+    targetArea: {fileID: 11400000, guid: b66dd18d8b6ab2c4da8259c7233812be, type: 2}
+    customSprite: {fileID: 0}
+  - position: {x: 4, y: 0}
+    targetArea: {fileID: 11400000, guid: beaa039a06bb11347a18f147345746a4, type: 2}
+    customSprite: {fileID: 0}
+  animals:
+  - animalPrefab: {fileID: 6993808492426258415, guid: b1c3036e6683c3848981814d0c8a1186, type: 3}
+    spawnPosition: {x: 0, y: -2}
+    canRoamHorizontally: 1
+    roamRange: 3

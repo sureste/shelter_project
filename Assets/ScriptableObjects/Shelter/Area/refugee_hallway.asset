@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd9deccb8212e9741acad195674b7b3f, type: 3}
+  m_Name: refugee_hallway
+  m_EditorClassIdentifier: 
+  areaID: 
+  displayName: Refugio
+  backgroundPrefab: {fileID: 4532441058569732872, guid: 58a15ee591dde76439e29733f74cd824, type: 3}
+  minX: -20
+  maxX: 20
+  doors:
+  - position: {x: -4, y: 0}
+    targetArea: {fileID: 11400000, guid: b66dd18d8b6ab2c4da8259c7233812be, type: 2}
+    customSprite: {fileID: 0}
+  - position: {x: 4, y: 0}
+    targetArea: {fileID: 11400000, guid: beaa039a06bb11347a18f147345746a4, type: 2}
+    customSprite: {fileID: 0}
+  animals: []
